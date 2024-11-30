@@ -11,7 +11,7 @@ import Companies from '../components/Companies';
 import VisionStatement from '../components/VisionStatement';
 import Testimonial from '../components/Testimonial';
 import Comparison from '../components/Comparison';
-import FaqSection from '../components/Faqsection';
+import FaqSection from '../components/FaqSection';
 
 const LandingPage = () => {
   return (

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satoshi:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.icon-wiggle {
+  animation: wiggle 2s infinite;
+}
+
+@keyframes moveYoutube {
+  0% {
+    top: 3%;
+    left: 2%;
+  }
+  25% {
+    top: 2%;
+    left: 3%;
+  }
+  50% {
+    top: 2%;
+    left: 2%;
+  }
+  75% {
+    top: 3%;
+    left: 3%;
+  }
+  100% {
+    top: 2%;
+    left: 2%;
+  }
+}
+
+@keyframes moveInstagram {
+  0% {
+    top: 10%;
+    right: 10%;
+  }
+  25% {
+    top: 10%;
+    right: 10%;
+  }
+  50% {
+    top: 15%;
+    right: 10%;
+  }
+  75% {
+    top: 10%;
+    right: 15%;
+  }
+  100% {
+    top: 18%;
+    right: 13%;
+  }
+}
+
+@keyframes moveMessenger {
+  0% {
+    bottom: 10%;
+    left: 14%;
+  }
+  25% {
+    bottom: 18%;
+    left: 10%;
+  }
+  50% {
+    bottom: 15%;
+    left: 11%;
+  }
+  75% {
+    bottom: 10%;
+    left: 16%;
+  }
+  100% {
+    bottom: 18%;
+    left: 16%;
+  }
+}
+
+@keyframes moveLinkedin {
+  0% {
+    bottom: 17%;
+    right: 13%;
+  }
+  25% {
+    bottom: 13%;
+    right: 17%;
+  }
+  50% {
+    bottom: 18%;
+    right: 10%;
+  }
+  75% {
+    bottom: 12%;
+    right: 16%;
+  }
+  100% {
+    bottom: 11%;
+    right: 15%;
+  }
+}
+
+.icon-move-youtube {
+  animation: moveYoutube 20s ease-in-out infinite;
+}
+
+.icon-move-instagram {
+  animation: moveInstagram 20s ease-in-out infinite;
+}
+
+.icon-move-messenger {
+  animation: moveMessenger 20s ease-in-out infinite;
+}
+
+.icon-move-linkedin {
+  animation: moveLinkedin 20s ease-in-out infinite;
+}
